@@ -159,6 +159,10 @@ body {
 	width: 234px;
     height: 209px;
     cursor: pointer;
+	box-shadow:4px 5px 5px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+	webkit-box-shadow:4px 5px 5px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+	moz-box-shadow:4px 5px 5px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+	o-box-shadow:4px 5px 5px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
 }
 
 .eright {
