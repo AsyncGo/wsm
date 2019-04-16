@@ -12,11 +12,11 @@ body {
 }
 
 .topbar {
-	position: relative;
-	left: 0px;
-	top: 0px;
-	height: 56px;
-	background-color: white;
+    position: relative;
+    height: 56px;
+    background-color: white;
+    min-width: 1200px;
+    margin: auto;
 }
 
 .logo {
@@ -113,13 +113,13 @@ body {
 	top: 0px;
 	height: 256px;
 	background-color: white;
-	min-width: 1280px;
+	min-width: 1020px;
 }
 
 .eleft {
     position: relative;
     width: 100px;
-    left: 50px;
+    left: 100px;
     height: 256px;
     text-align: center;
     padding-top: 90px;
@@ -142,8 +142,8 @@ body {
 
 .epnl {
 	position: relative;
-    width: 230px;
-    height: 230px;
+    width: 235px;
+    height: 210px;
     left: 20px;
     top: 30px;
     top: 15px;
@@ -156,19 +156,19 @@ body {
 }
 
 .epnl img {
-	width: 229px;
-    height: 229px;
+	width: 234px;
+    height: 209px;
     cursor: pointer;
 }
 
 .eright {
     position: relative;
     width: 100px;
-    right: 50px;
+    left: 100px;
     height: 256px;
     text-align: center;
     padding-top: 90px;
-    float: right;
+    float: left;
 }
 
 .eright span {
@@ -182,7 +182,7 @@ body {
 	margin: auto;
 	top: 20px;
 	height: 317px;
-	width: 1220px;
+	width: 1020px;
 	background-color: #fff;
 	border: 1px solid #ddd;
 }
@@ -192,7 +192,7 @@ body {
 	margin: auto;
 	top: 25px;
 	height: 217px;
-	width: 1200px;
+	width: 1020px;
 	padding-top: 10px;
 }
 
@@ -215,7 +215,7 @@ body {
 }
 
 .pnl {
-    width: 280px;
+    width: 236px;
     height: 90px;
     left: 40px;
     top: 20px;
@@ -295,8 +295,8 @@ body {
 
 .fd {
 	position: absolute;
-    left: 1080px;
-    top: 30px;
+    left: 980px;
+    top: 20px;
     height: 170px;
     width: 170px;
     float: left;
